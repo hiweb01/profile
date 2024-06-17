@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> profile </title>
+
+    <style>
+        /* nav opacity */
+        header {
+            /* border: 1px solid red; */
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        /* background 만들기 */
+        #wrapper {
+            width: 1280px; 
+            height: 960px; 
+            margin: 0 auto;
+            background-image: url(person.jpg);
+        }
+        /* nav 만들기 */
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            float: left;
+            font-weight: bold;
+            margin: 15px;
+            margin-top: 80px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.8em;
+            margin-left: 37px;
+        }
+        nav ul li a:hover {
+            color: black;
+        }
+        /* aside id=right 만들기 */
+        aside {
+            border: 1px solid red;
+            float: left;
+            margin-top: 180px;
+            margin-left: 70px;
+            width: 35%;
+            height: 35%;
+            text-align: right;
+        }
+        aside h2 {
+            color: white;
+            font-size: 2em; 
+            text-align: center;
+        }
+        aside .fir{
+            color: white;
+        }
+        aside .sec{
+            color: white;
+            font-weight: bold;
+        }
+        /* article 만들기 */
+        div#all {
+            float: left;
+            width: 45%;
+            margin-left: 90px;
+            padding-bottom: 60px;
+        }
+        article#at1 {
+            margin-top: 70px;
+        }
+        article#at2 {
+            margin-top: 50px;
+        }
+        article#at1, article#at2 {
+            font-weight: bold;
+            color: white;
+            border: 1px solid gainsboro;
+        }
+        article#at1 h2, article#at2 h2 {
+            text-align: center;
+            color: white;
+        }
+        input[type=submit] {
+            background-color: gainsboro;
+            border: none;
+            border-radius: 20px;
+            padding: 5px 20px;
+            display: block;
+            margin: 30px auto;
+        }
+        input[type=submit]:hover {
+            background-color: black;
+            color: white;
+        }
+        /* footer 만들기 */
+        footer {
+            clear: both;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <header>
+        <nav> 
+            <ul>
+                <li> <a href="#"> Introduce </a> </li>
+                <li> <a href="#"> Work Expirience </a> </li>
+                <li> <a href="#"> Other Expirience </a></li>
+                <li> <a href="#"> Skill </a></li>
+                <li> <a href="#"> Education </a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <section>
+
+        <div id="all">
+        <article id="at1"> 
+            <h2> Introduce 1 </h2>
+            새내기 개발자 입니다. 반복되는 일을 자동화하고 비효울적인 프로세스를 개선할 수 있는 개발자로 성장하고싶습니다. 또한 큰 임팩트는 혼자가 아닌 함께 만들 수 있다고 생각하기에 다양한 직무의 팀 구성원들과 적극적으로 커뮤니케이션하며 협업하고 싶습니다. 비지니스 성장에 기여할 수 있으면 좋겠습니다. 감사합니다.<br>
+            <input type="submit" value="visited">
+        </article>
+
+        <article id="at2"> 
+            <h2> Introduce 2 </h2>
+            새내기 개발자 입니다. 반복되는 일을 자동화하고 비효울적인 프로세스를 개선할 수 있는 개발자로 성장하고싶습니다. 또한 큰 임팩트는 혼자가 아닌 함께 만들 수 있다고 생각하기에 다양한 직무의 팀 구성원들과 적극적으로 커뮤니케이션하며 협업하고 싶습니다. 비지니스 성장에 기여할 수 있으면 좋겠습니다. 감사합니다.<br>
+            <input type="submit" value="visited">
+        </article>
+        </div>
+    </section>
+
+        <aside>
+            <h2> HIWEB01 profile </h2>
+            <p>
+            <span class="fir"> 
+                Email. rlawldus2480@gmail.com <br> 
+                phone.010-0000-0000 <br> <br>
+            </span>
+                
+            <span class="sec"> 
+                2017.03~2022.02 hansei university (nurse of department) <br>
+                2022.03~2022.05 Nowon Eulji University Hospital <br>
+                2022.06~2022.12 Bobath Memorial Hospital <br>
+                2024.05~2024.11 medical ai developer course <br>
+            </span>
+            </p>
+        </aside>
+
+        <footer> 
+            Copyright(c)2024 profile
+        </footer>
+
+    </div>
+
+</body>
+</html>
